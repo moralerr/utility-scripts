@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import common from '../common-lib/nodejs/index.js';
+import common from 'common-lib';
 
 const owner = 'moralerr';
 const repo = 'BarSignal';

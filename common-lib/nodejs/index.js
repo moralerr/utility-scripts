@@ -5,12 +5,6 @@ const octokit = new Octokit({
 });
 
 const common = {
-  sayHello: function() {
-    console.log('Hello from common-lib');
-  },
-  sayGoodbye: function() {
-    console.log('Goodbye!');
-  },
   getGithubRepo: async function(owner, repo) {
     try {
       const response = await octokit.rest.repos.get({
